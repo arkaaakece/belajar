@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terkini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .article {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: start;
+        }
+        .article-image {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .article-content {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berita Terkini</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Nasional</a></li>
+            <li><a href="#">Internasional</a></li>
+            <li><a href="#">Olahraga</a></li>
+            <li><a href="#">Teknologi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="article">
+            <img src="https://via.placeholder.com/200x150" alt="Gambar Berita Utama" class="article-image">
+            <div class="article-content">
+                <h2>Judul Berita Utama</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec magna vel ante sollicitudin lacinia.</p>
+                <a href="#">Baca selengkapnya</a>
+            </div>
+        </div>
+
+        <div class="article">
+            <img src="https://via.placeholder.com/200x150" alt="Gambar Berita Terbaru" class="article-image">
+            <div class="article-content">
+                <h2>Berita Terbaru Lainnya</h2>
+                <p>Nullam auctor, nunc id eleifend tincidunt, nisl ligula ultricies nisi, at aliquam nunc nisi eu lectus.</p>
+                <a href="#">Baca selengkapnya</a>
+            </div>
+        </div>
+
+        <div class="article">
+            <img src="https://raw.githubusercontent.com/arkaaakece/belajar/main/5.JPG" alt="Gambar Perkembangan Terkini" class="article-image">
+            <div class="article-content">
+                <h2>Perkembangan Terkini</h2>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <a href="#">Baca selengkapnya</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Berita Terkini. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
 
